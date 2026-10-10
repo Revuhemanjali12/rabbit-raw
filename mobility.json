@@ -1,0 +1,26 @@
+[
+  {
+    "application_name": "Android Settings",
+    "capability_name": "toggle wifi",
+    "interface_type": "GUI",
+    "instructions": "Open Settings > Network & internet > Wi-Fi and tap the toggle.",
+    "evidence": "Verified manually on a test device",
+    "confidence": 0.8
+  },
+  {
+    "application_name": "Android Device",
+    "capability_name": "open app by package name",
+    "interface_type": "CLI",
+    "instructions": "adb shell monkey -p <package> -c android.intent.category.LAUNCHER 1",
+    "evidence": "Standard adb usage",
+    "confidence": 0.7
+  },
+  {
+    "application_name": "Android Device",
+    "capability_name": "tap screen coordinate",
+    "interface_type": "CLI",
+    "instructions": "adb shell input tap <x> <y>",
+    "evidence": "Standard adb usage",
+    "confidence": 0.7
+  }
+]

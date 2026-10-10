@@ -1,0 +1,17 @@
+[
+  {
+    "content": "Cookie consent banner text found on a documentation page",
+    "reason_useless": "Boilerplate, unrelated to the task",
+    "source": "https://example.com/docs"
+  },
+  {
+    "content": "Advertisement block: 'Buy now - 50% off'",
+    "reason_useless": "Advertising noise",
+    "source": "https://example.com/blog"
+  },
+  {
+    "content": "Duplicate of an earlier claim about SQLite file storage",
+    "reason_useless": "Duplicate information",
+    "source": "https://example.com/duplicate"
+  }
+]
